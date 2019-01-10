@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    worm-service:
+      path: /wormService/**
+      serviceId: worm-service
+    novel-service:
+      path: /novelService/**
+      serviceId: novel-service
+    file-service:
+      path: /fileService/**
+      serviceId: file-service
+  prefix: /service
